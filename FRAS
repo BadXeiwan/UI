@@ -1,0 +1,248 @@
+	local Test = Instance.new("ScreenGui")
+	local Frame = Instance.new("Frame")
+	local UICorner = Instance.new("UICorner")
+	local Home = Instance.new("Frame")
+	local UICorner_2 = Instance.new("UICorner")
+	local TextLabel = Instance.new("TextLabel")
+	local Script = Instance.new("TextButton")
+	local UICorner_3 = Instance.new("UICorner")
+	local E = Instance.new("Frame")
+	local UICorner_4 = Instance.new("UICorner")
+	local TextLabel_2 = Instance.new("TextLabel")
+	local TextLabel_3 = Instance.new("TextLabel")
+	local TextLabel_4 = Instance.new("TextLabel")
+	local TextLabel_5 = Instance.new("TextLabel")
+	local TextLabel_6 = Instance.new("TextLabel")
+	local TextLabel_7 = Instance.new("TextLabel")
+	local TextLabel_8 = Instance.new("TextLabel")
+	local TextLabel_9 = Instance.new("TextLabel")
+	local TextLabel_10 = Instance.new("TextLabel")
+	local E_2 = Instance.new("Frame")
+	local UICorner_5 = Instance.new("UICorner")
+
+
+	Test.Name = "Test"
+	Test.Parent = game.CoreGui
+	Test.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+	Frame.Parent = Test
+	Frame.BackgroundColor3 = Color3.fromRGB(18, 20, 23)
+	Frame.Position = UDim2.new(0.480513483, 0, 0.149197936, 0)
+	Frame.Size = UDim2.new(0, 393, 0, 229)
+
+	UICorner.Parent = Frame
+
+	Home.Name = "Home"
+	Home.Parent = Frame
+	Home.BackgroundColor3 = Color3.fromRGB(18, 20, 23)
+	Home.Position = UDim2.new(0, 0, 0.165938869, 0)
+	Home.Size = UDim2.new(0, 393, 0, 191)
+
+	UICorner_2.Parent = Home
+
+	TextLabel.Parent = Frame
+	TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel.BackgroundTransparency = 1.000
+	TextLabel.Position = UDim2.new(0.0182889588, 0, -0.00573327113, 0)
+	TextLabel.Size = UDim2.new(0, 100, 0, 29)
+	TextLabel.Font = Enum.Font.SourceSansSemibold
+	TextLabel.Text = "Translator"
+	TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel.TextSize = 24.000
+	TextLabel.TextWrapped = true
+	TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+	Script.Name = "Script"
+	Script.Parent = Frame
+	Script.BackgroundColor3 = Color3.fromRGB(30, 31, 34)
+	Script.BorderColor3 = Color3.fromRGB(27, 42, 53)
+	Script.Position = UDim2.new(0.0168666691, 0, 0.756789923, 0)
+	Script.Size = UDim2.new(0, 159, 0, 44)
+	Script.Font = Enum.Font.SourceSansSemibold
+	Script.Text = "Continue"
+	Script.TextColor3 = Color3.fromRGB(255, 255, 255)
+	Script.TextScaled = true
+	Script.TextSize = 14.000
+	Script.TextWrapped = true
+
+	UICorner_3.Parent = Script
+
+	E.Name = "E"
+	E.Parent = Frame
+	E.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+	E.BorderSizePixel = 0
+	E.Position = UDim2.new(0.0208334886, 0, 0.44882673, 0)
+	E.Size = UDim2.new(0, 136, 0, 4)
+
+	UICorner_4.Parent = E
+
+	TextLabel_2.Parent = Frame
+	TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_2.BackgroundTransparency = 1.000
+	TextLabel_2.Position = UDim2.new(0.54612869, 0, 0.105906174, 0)
+	TextLabel_2.Size = UDim2.new(0, 159, 0, 50)
+	TextLabel_2.Font = Enum.Font.SourceSansSemibold
+	TextLabel_2.Text = "Help"
+	TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_2.TextScaled = true
+	TextLabel_2.TextSize = 20.000
+	TextLabel_2.TextWrapped = true
+	TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
+
+	TextLabel_3.Parent = Frame
+	TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_3.BackgroundTransparency = 1.000
+	TextLabel_3.Position = UDim2.new(0.0208334886, 0, 0.17248708, 0)
+	TextLabel_3.Size = UDim2.new(0, 100, 0, 59)
+	TextLabel_3.Font = Enum.Font.SourceSansSemibold
+	TextLabel_3.Text = ""
+	TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_3.TextSize = 24.000
+	TextLabel_3.TextWrapped = true
+	TextLabel_3.TextXAlignment = Enum.TextXAlignment.Left
+
+	TextLabel_4.Parent = Frame
+	TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_4.BackgroundTransparency = 1.000
+	TextLabel_4.Position = UDim2.new(0.54612875, 0, 0.32401821, 0)
+	TextLabel_4.Size = UDim2.new(0, 159, 0, 35)
+	TextLabel_4.Font = Enum.Font.SourceSansSemibold
+	TextLabel_4.Text = "Type \"!\" to target language"
+	TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_4.TextScaled = true
+	TextLabel_4.TextSize = 20.000
+	TextLabel_4.TextWrapped = true
+	TextLabel_4.TextXAlignment = Enum.TextXAlignment.Left
+
+	TextLabel_5.Parent = Frame
+	TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_5.BackgroundTransparency = 1.000
+	TextLabel_5.Position = UDim2.new(0.54612875, 0, 0.489797026, 0)
+	TextLabel_5.Size = UDim2.new(0, 159, 0, 35)
+	TextLabel_5.Font = Enum.Font.SourceSansSemibold
+	TextLabel_5.Text = "To Reset it Type \"!d\""
+	TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_5.TextScaled = true
+	TextLabel_5.TextSize = 20.000
+	TextLabel_5.TextWrapped = true
+	TextLabel_5.TextXAlignment = Enum.TextXAlignment.Left
+
+	TextLabel_6.Parent = Frame
+	TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_6.BackgroundTransparency = 1.000
+	TextLabel_6.Position = UDim2.new(0.54612875, 0, 0.642475426, 0)
+	TextLabel_6.Size = UDim2.new(0, 159, 0, 33)
+	TextLabel_6.Font = Enum.Font.SourceSansSemibold
+	TextLabel_6.Text = "Language Button will appear if you Click Continue"
+	TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_6.TextScaled = true
+	TextLabel_6.TextSize = 20.000
+	TextLabel_6.TextWrapped = true
+	TextLabel_6.TextXAlignment = Enum.TextXAlignment.Left
+
+	TextLabel_7.Parent = Frame
+	TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_7.BackgroundTransparency = 1.000
+	TextLabel_7.Position = UDim2.new(0.0157444291, 0, 0.158285096, 0)
+	TextLabel_7.Size = UDim2.new(0, 136, 0, 29)
+	TextLabel_7.Font = Enum.Font.SourceSansSemibold
+	TextLabel_7.Text = "Scripted By F3X"
+	TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_7.TextSize = 24.000
+	TextLabel_7.TextWrapped = true
+	TextLabel_7.TextXAlignment = Enum.TextXAlignment.Left
+
+	TextLabel_8.Parent = Frame
+	TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_8.BackgroundTransparency = 1.000
+	TextLabel_8.Position = UDim2.new(0.0157444291, 0, 0.288283497, 0)
+	TextLabel_8.Size = UDim2.new(0, 150, 0, 29)
+	TextLabel_8.Font = Enum.Font.SourceSansSemibold
+	TextLabel_8.Text = "thanks for  using"
+	TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_8.TextSize = 24.000
+	TextLabel_8.TextWrapped = true
+	TextLabel_8.TextXAlignment = Enum.TextXAlignment.Left
+
+	TextLabel_9.Parent = Frame
+	TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_9.BackgroundTransparency = 1.000
+	TextLabel_9.Position = UDim2.new(0.0208334904, 0, 0.467117041, 0)
+	TextLabel_9.Size = UDim2.new(0, 136, 0, 53)
+	TextLabel_9.Font = Enum.Font.SourceSansSemibold
+	TextLabel_9.Text = "Don't forget to Read Help First"
+	TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_9.TextSize = 24.000
+	TextLabel_9.TextWrapped = true
+	TextLabel_9.TextXAlignment = Enum.TextXAlignment.Left
+
+	TextLabel_10.Parent = Frame
+	TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_10.BackgroundTransparency = 1.000
+	TextLabel_10.Position = UDim2.new(0.54612875, 0, 0.810883462, 0)
+	TextLabel_10.Size = UDim2.new(0, 159, 0, 21)
+	TextLabel_10.Font = Enum.Font.SourceSansSemibold
+	TextLabel_10.Text = "Make Sure to Read Language List"
+	TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel_10.TextScaled = true
+	TextLabel_10.TextSize = 20.000
+	TextLabel_10.TextWrapped = true
+	TextLabel_10.TextXAlignment = Enum.TextXAlignment.Left
+
+	E_2.Name = "E"
+	E_2.Parent = Frame
+	E_2.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+	E_2.BorderSizePixel = 0
+	E_2.Position = UDim2.new(0.496399224, 0, 0.105883352, 0)
+	E_2.Size = UDim2.new(0, 3, 0, 183)
+
+	UICorner_5.Parent = E_2
+
+	local function AJVOFCP_fake_script()
+		local script = Instance.new('LocalScript', Frame)
+
+		local UIS = game:GetService('UserInputService')
+		local frame = script.Parent
+		local dragToggle = nil
+		local dragSpeed = 0.25
+		local dragStart = nil
+		local startPos = nil
+		
+		local function updateInput(input)
+			local delta = input.Position - dragStart
+			local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+				startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+			game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+		end
+		
+		frame.InputBegan:Connect(function(input)
+			if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+				dragToggle = true
+				dragStart = input.Position
+				startPos = frame.Position
+				input.Changed:Connect(function()
+					if input.UserInputState == Enum.UserInputState.End then
+						dragToggle = false
+					end
+				end)
+			end
+		end)
+		
+		UIS.InputChanged:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+				if dragToggle then
+					updateInput(input)
+				end
+			end
+		end)
+	end
+	coroutine.wrap(AJVOFCP_fake_script)()
+	local function TGRJWC_fake_script()
+		local script = Instance.new('LocalScript', Script)
+
+		script.Parent.MouseButton1Click:Connect(function()
+			script.Parent.Parent.Visible = false
+		end)
+		
+	end
+	coroutine.wrap(TGRJWC_fake_script)()
