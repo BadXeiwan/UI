@@ -1,248 +1,1624 @@
-	local Test = Instance.new("ScreenGui")
-	local Frame = Instance.new("Frame")
-	local UICorner = Instance.new("UICorner")
-	local Home = Instance.new("Frame")
-	local UICorner_2 = Instance.new("UICorner")
-	local TextLabel = Instance.new("TextLabel")
-	local Script = Instance.new("TextButton")
-	local UICorner_3 = Instance.new("UICorner")
-	local E = Instance.new("Frame")
-	local UICorner_4 = Instance.new("UICorner")
-	local TextLabel_2 = Instance.new("TextLabel")
-	local TextLabel_3 = Instance.new("TextLabel")
-	local TextLabel_4 = Instance.new("TextLabel")
-	local TextLabel_5 = Instance.new("TextLabel")
-	local TextLabel_6 = Instance.new("TextLabel")
-	local TextLabel_7 = Instance.new("TextLabel")
-	local TextLabel_8 = Instance.new("TextLabel")
-	local TextLabel_9 = Instance.new("TextLabel")
-	local TextLabel_10 = Instance.new("TextLabel")
-	local E_2 = Instance.new("Frame")
-	local UICorner_5 = Instance.new("UICorner")
+-- Gui to Lua
+-- Version: 3.2
 
+-- Instances:
 
-	Test.Name = "Test"
-	Test.Parent = game.CoreGui
-	Test.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local UIListLayout = Instance.new("UIListLayout")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local TextLabel_10 = Instance.new("TextLabel")
+local TextLabel_11 = Instance.new("TextLabel")
+local TextLabel_12 = Instance.new("TextLabel")
+local TextLabel_13 = Instance.new("TextLabel")
+local TextLabel_14 = Instance.new("TextLabel")
+local TextLabel_15 = Instance.new("TextLabel")
+local TextLabel_16 = Instance.new("TextLabel")
+local TextLabel_17 = Instance.new("TextLabel")
+local TextLabel_18 = Instance.new("TextLabel")
+local TextLabel_19 = Instance.new("TextLabel")
+local TextLabel_20 = Instance.new("TextLabel")
+local TextLabel_21 = Instance.new("TextLabel")
+local TextLabel_22 = Instance.new("TextLabel")
+local TextLabel_23 = Instance.new("TextLabel")
+local TextLabel_24 = Instance.new("TextLabel")
+local TextLabel_25 = Instance.new("TextLabel")
+local TextLabel_26 = Instance.new("TextLabel")
+local TextLabel_27 = Instance.new("TextLabel")
+local TextLabel_28 = Instance.new("TextLabel")
+local TextLabel_29 = Instance.new("TextLabel")
+local TextLabel_30 = Instance.new("TextLabel")
+local TextLabel_31 = Instance.new("TextLabel")
+local TextLabel_32 = Instance.new("TextLabel")
+local TextLabel_33 = Instance.new("TextLabel")
+local TextLabel_34 = Instance.new("TextLabel")
+local TextLabel_35 = Instance.new("TextLabel")
+local TextLabel_36 = Instance.new("TextLabel")
+local TextLabel_37 = Instance.new("TextLabel")
+local TextLabel_38 = Instance.new("TextLabel")
+local TextLabel_39 = Instance.new("TextLabel")
+local TextLabel_40 = Instance.new("TextLabel")
+local TextLabel_41 = Instance.new("TextLabel")
+local TextLabel_42 = Instance.new("TextLabel")
+local TextLabel_43 = Instance.new("TextLabel")
+local TextLabel_44 = Instance.new("TextLabel")
+local TextLabel_45 = Instance.new("TextLabel")
+local TextLabel_46 = Instance.new("TextLabel")
+local TextLabel_47 = Instance.new("TextLabel")
+local TextLabel_48 = Instance.new("TextLabel")
+local TextLabel_49 = Instance.new("TextLabel")
+local TextLabel_50 = Instance.new("TextLabel")
+local TextLabel_51 = Instance.new("TextLabel")
+local TextLabel_52 = Instance.new("TextLabel")
+local TextLabel_53 = Instance.new("TextLabel")
+local TextLabel_54 = Instance.new("TextLabel")
+local TextLabel_55 = Instance.new("TextLabel")
+local TextLabel_56 = Instance.new("TextLabel")
+local TextLabel_57 = Instance.new("TextLabel")
+local TextLabel_58 = Instance.new("TextLabel")
+local TextLabel_59 = Instance.new("TextLabel")
+local TextLabel_60 = Instance.new("TextLabel")
+local TextLabel_61 = Instance.new("TextLabel")
+local TextLabel_62 = Instance.new("TextLabel")
+local TextLabel_63 = Instance.new("TextLabel")
+local TextLabel_64 = Instance.new("TextLabel")
+local TextLabel_65 = Instance.new("TextLabel")
+local TextLabel_66 = Instance.new("TextLabel")
+local TextLabel_67 = Instance.new("TextLabel")
+local TextLabel_68 = Instance.new("TextLabel")
+local TextLabel_69 = Instance.new("TextLabel")
+local TextLabel_70 = Instance.new("TextLabel")
+local TextLabel_71 = Instance.new("TextLabel")
+local TextLabel_72 = Instance.new("TextLabel")
+local TextLabel_73 = Instance.new("TextLabel")
+local TextLabel_74 = Instance.new("TextLabel")
+local TextLabel_75 = Instance.new("TextLabel")
+local TextLabel_76 = Instance.new("TextLabel")
+local TextLabel_77 = Instance.new("TextLabel")
+local TextLabel_78 = Instance.new("TextLabel")
+local TextLabel_79 = Instance.new("TextLabel")
+local TextLabel_80 = Instance.new("TextLabel")
+local TextLabel_81 = Instance.new("TextLabel")
+local TextLabel_82 = Instance.new("TextLabel")
+local TextLabel_83 = Instance.new("TextLabel")
+local TextLabel_84 = Instance.new("TextLabel")
+local TextLabel_85 = Instance.new("TextLabel")
+local TextLabel_86 = Instance.new("TextLabel")
+local TextLabel_87 = Instance.new("TextLabel")
+local TextLabel_88 = Instance.new("TextLabel")
+local TextLabel_89 = Instance.new("TextLabel")
+local TextLabel_90 = Instance.new("TextLabel")
+local TextLabel_91 = Instance.new("TextLabel")
+local TextLabel_92 = Instance.new("TextLabel")
+local TextLabel_93 = Instance.new("TextLabel")
+local TextLabel_94 = Instance.new("TextLabel")
+local TextLabel_95 = Instance.new("TextLabel")
+local TextLabel_96 = Instance.new("TextLabel")
+local TextLabel_97 = Instance.new("TextLabel")
+local TextLabel_98 = Instance.new("TextLabel")
+local TextLabel_99 = Instance.new("TextLabel")
+local TextLabel_100 = Instance.new("TextLabel")
+local TextLabel_101 = Instance.new("TextLabel")
+local TextLabel_102 = Instance.new("TextLabel")
+local TextLabel_103 = Instance.new("TextLabel")
+local TextLabel_104 = Instance.new("TextLabel")
+local TextLabel_105 = Instance.new("TextLabel")
+local TextLabel_106 = Instance.new("TextLabel")
+local TextLabel_107 = Instance.new("TextLabel")
+local TextLabel_108 = Instance.new("TextLabel")
+local TextLabel_109 = Instance.new("TextLabel")
+local TextLabel_110 = Instance.new("TextLabel")
+local TextLabel_111 = Instance.new("TextLabel")
+local TextLabel_112 = Instance.new("TextLabel")
+local TextLabel_113 = Instance.new("TextLabel")
+local TextLabel_114 = Instance.new("TextLabel")
+local TextLabel_115 = Instance.new("TextLabel")
+local TextLabel_116 = Instance.new("TextLabel")
+local TextLabel_117 = Instance.new("TextLabel")
+local TextLabel_118 = Instance.new("TextLabel")
+local TextLabel_119 = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
 
-	Frame.Parent = Test
-	Frame.BackgroundColor3 = Color3.fromRGB(18, 20, 23)
-	Frame.Position = UDim2.new(0.480513483, 0, 0.149197936, 0)
-	Frame.Size = UDim2.new(0, 393, 0, 229)
+--Properties:
 
-	UICorner.Parent = Frame
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-	Home.Name = "Home"
-	Home.Parent = Frame
-	Home.BackgroundColor3 = Color3.fromRGB(18, 20, 23)
-	Home.Position = UDim2.new(0, 0, 0.165938869, 0)
-	Home.Size = UDim2.new(0, 393, 0, 191)
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(18, 20, 23)
+Frame.Position = UDim2.new(0.0577617325, 0, 0.0659025759, 0)
+Frame.Size = UDim2.new(0, 178, 0, 521)
 
-	UICorner_2.Parent = Home
+ScrollingFrame.Parent = Frame
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Size = UDim2.new(0, 178, 0, 521)
+ScrollingFrame.CanvasSize = UDim2.new(0, 0, 7, 0)
+ScrollingFrame.ScrollBarThickness = 2
 
-	TextLabel.Parent = Frame
-	TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel.BackgroundTransparency = 1.000
-	TextLabel.Position = UDim2.new(0.0182889588, 0, -0.00573327113, 0)
-	TextLabel.Size = UDim2.new(0, 100, 0, 29)
-	TextLabel.Font = Enum.Font.SourceSansSemibold
-	TextLabel.Text = "Translator"
-	TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel.TextSize = 24.000
-	TextLabel.TextWrapped = true
-	TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+UIListLayout.Parent = ScrollingFrame
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0, 2)
 
-	Script.Name = "Script"
-	Script.Parent = Frame
-	Script.BackgroundColor3 = Color3.fromRGB(30, 31, 34)
-	Script.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	Script.Position = UDim2.new(0.0168666691, 0, 0.756789923, 0)
-	Script.Size = UDim2.new(0, 159, 0, 44)
-	Script.Font = Enum.Font.SourceSansSemibold
-	Script.Text = "Continue"
-	Script.TextColor3 = Color3.fromRGB(255, 255, 255)
-	Script.TextScaled = true
-	Script.TextSize = 14.000
-	Script.TextWrapped = true
+TextLabel.Parent = ScrollingFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(0, 178, 0, 28)
+TextLabel.Font = Enum.Font.SourceSansSemibold
+TextLabel.Text = "Language List"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 20.000
+TextLabel.TextWrapped = true
 
-	UICorner_3.Parent = Script
+TextLabel_2.Parent = ScrollingFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.0393258445, 0, 0.0575815737, 0)
+TextLabel_2.Size = UDim2.new(0, 171, 0, 28)
+TextLabel_2.Font = Enum.Font.SourceSansSemibold
+TextLabel_2.Text = "auto | Automatic"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 20.000
+TextLabel_2.TextWrapped = true
 
-	E.Name = "E"
-	E.Parent = Frame
-	E.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
-	E.BorderSizePixel = 0
-	E.Position = UDim2.new(0.0208334886, 0, 0.44882673, 0)
-	E.Size = UDim2.new(0, 136, 0, 4)
+TextLabel_3.Parent = ScrollingFrame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_3.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_3.Font = Enum.Font.SourceSansSemibold
+TextLabel_3.Text = "af | Afrikaans"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 20.000
+TextLabel_3.TextWrapped = true
 
-	UICorner_4.Parent = E
+TextLabel_4.Parent = ScrollingFrame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_4.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_4.Font = Enum.Font.SourceSansSemibold
+TextLabel_4.Text = "sq | Albanian"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 20.000
+TextLabel_4.TextWrapped = true
 
-	TextLabel_2.Parent = Frame
-	TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_2.BackgroundTransparency = 1.000
-	TextLabel_2.Position = UDim2.new(0.54612869, 0, 0.105906174, 0)
-	TextLabel_2.Size = UDim2.new(0, 159, 0, 50)
-	TextLabel_2.Font = Enum.Font.SourceSansSemibold
-	TextLabel_2.Text = "Help"
-	TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_2.TextScaled = true
-	TextLabel_2.TextSize = 20.000
-	TextLabel_2.TextWrapped = true
-	TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_5.Parent = ScrollingFrame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_5.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_5.Font = Enum.Font.SourceSansSemibold
+TextLabel_5.Text = "am | Amharic"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 20.000
+TextLabel_5.TextWrapped = true
 
-	TextLabel_3.Parent = Frame
-	TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_3.BackgroundTransparency = 1.000
-	TextLabel_3.Position = UDim2.new(0.0208334886, 0, 0.17248708, 0)
-	TextLabel_3.Size = UDim2.new(0, 100, 0, 59)
-	TextLabel_3.Font = Enum.Font.SourceSansSemibold
-	TextLabel_3.Text = ""
-	TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_3.TextSize = 24.000
-	TextLabel_3.TextWrapped = true
-	TextLabel_3.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_6.Parent = ScrollingFrame
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_6.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_6.Font = Enum.Font.SourceSansSemibold
+TextLabel_6.Text = "ar | Arabic"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 20.000
+TextLabel_6.TextWrapped = true
 
-	TextLabel_4.Parent = Frame
-	TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_4.BackgroundTransparency = 1.000
-	TextLabel_4.Position = UDim2.new(0.54612875, 0, 0.32401821, 0)
-	TextLabel_4.Size = UDim2.new(0, 159, 0, 35)
-	TextLabel_4.Font = Enum.Font.SourceSansSemibold
-	TextLabel_4.Text = "Type \"!\" to target language"
-	TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_4.TextScaled = true
-	TextLabel_4.TextSize = 20.000
-	TextLabel_4.TextWrapped = true
-	TextLabel_4.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_7.Parent = ScrollingFrame
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_7.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_7.Font = Enum.Font.SourceSansSemibold
+TextLabel_7.Text = "hy | Armenian"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 20.000
+TextLabel_7.TextWrapped = true
 
-	TextLabel_5.Parent = Frame
-	TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_5.BackgroundTransparency = 1.000
-	TextLabel_5.Position = UDim2.new(0.54612875, 0, 0.489797026, 0)
-	TextLabel_5.Size = UDim2.new(0, 159, 0, 35)
-	TextLabel_5.Font = Enum.Font.SourceSansSemibold
-	TextLabel_5.Text = "To Reset it Type \"!d\""
-	TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_5.TextScaled = true
-	TextLabel_5.TextSize = 20.000
-	TextLabel_5.TextWrapped = true
-	TextLabel_5.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_8.Parent = ScrollingFrame
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_8.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_8.Font = Enum.Font.SourceSansSemibold
+TextLabel_8.Text = "az | Azerbaijani"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 20.000
+TextLabel_8.TextWrapped = true
 
-	TextLabel_6.Parent = Frame
-	TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_6.BackgroundTransparency = 1.000
-	TextLabel_6.Position = UDim2.new(0.54612875, 0, 0.642475426, 0)
-	TextLabel_6.Size = UDim2.new(0, 159, 0, 33)
-	TextLabel_6.Font = Enum.Font.SourceSansSemibold
-	TextLabel_6.Text = "Language Button will appear if you Click Continue"
-	TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_6.TextScaled = true
-	TextLabel_6.TextSize = 20.000
-	TextLabel_6.TextWrapped = true
-	TextLabel_6.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_9.Parent = ScrollingFrame
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_9.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_9.Font = Enum.Font.SourceSansSemibold
+TextLabel_9.Text = "UNKNOWN OR EXPLOIT NOT SUPPORTED"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_9.TextScaled = true
+TextLabel_9.TextSize = 20.000
+TextLabel_9.TextWrapped = true
 
-	TextLabel_7.Parent = Frame
-	TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_7.BackgroundTransparency = 1.000
-	TextLabel_7.Position = UDim2.new(0.0157444291, 0, 0.158285096, 0)
-	TextLabel_7.Size = UDim2.new(0, 136, 0, 29)
-	TextLabel_7.Font = Enum.Font.SourceSansSemibold
-	TextLabel_7.Text = "Scripted By F3X"
-	TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_7.TextSize = 24.000
-	TextLabel_7.TextWrapped = true
-	TextLabel_7.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_10.Parent = ScrollingFrame
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_10.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_10.Font = Enum.Font.SourceSansSemibold
+TextLabel_10.Text = "UNKNOWN OR EXPLOIT NOT SUPPORTED"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_10.TextScaled = true
+TextLabel_10.TextSize = 20.000
+TextLabel_10.TextWrapped = true
 
-	TextLabel_8.Parent = Frame
-	TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_8.BackgroundTransparency = 1.000
-	TextLabel_8.Position = UDim2.new(0.0157444291, 0, 0.288283497, 0)
-	TextLabel_8.Size = UDim2.new(0, 150, 0, 29)
-	TextLabel_8.Font = Enum.Font.SourceSansSemibold
-	TextLabel_8.Text = "thanks for  using"
-	TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_8.TextSize = 24.000
-	TextLabel_8.TextWrapped = true
-	TextLabel_8.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_11.Parent = ScrollingFrame
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_11.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_11.Font = Enum.Font.SourceSansSemibold
+TextLabel_11.Text = "UNKNOWN OR EXPLOIT NOT SUPPORTED"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_11.TextScaled = true
+TextLabel_11.TextSize = 20.000
+TextLabel_11.TextWrapped = true
 
-	TextLabel_9.Parent = Frame
-	TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_9.BackgroundTransparency = 1.000
-	TextLabel_9.Position = UDim2.new(0.0208334904, 0, 0.467117041, 0)
-	TextLabel_9.Size = UDim2.new(0, 136, 0, 53)
-	TextLabel_9.Font = Enum.Font.SourceSansSemibold
-	TextLabel_9.Text = "Don't forget to Read Help First"
-	TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_9.TextSize = 24.000
-	TextLabel_9.TextWrapped = true
-	TextLabel_9.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_12.Parent = ScrollingFrame
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_12.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_12.Font = Enum.Font.SourceSansSemibold
+TextLabel_12.Text = "UNKNOWN OR EXPLOIT NOT SUPPORTED"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_12.TextScaled = true
+TextLabel_12.TextSize = 20.000
+TextLabel_12.TextWrapped = true
 
-	TextLabel_10.Parent = Frame
-	TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_10.BackgroundTransparency = 1.000
-	TextLabel_10.Position = UDim2.new(0.54612875, 0, 0.810883462, 0)
-	TextLabel_10.Size = UDim2.new(0, 159, 0, 21)
-	TextLabel_10.Font = Enum.Font.SourceSansSemibold
-	TextLabel_10.Text = "Make Sure to Read Language List"
-	TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_10.TextScaled = true
-	TextLabel_10.TextSize = 20.000
-	TextLabel_10.TextWrapped = true
-	TextLabel_10.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_13.Parent = ScrollingFrame
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_13.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_13.Font = Enum.Font.SourceSansSemibold
+TextLabel_13.Text = "UNKNOWN OR EXPLOIT NOT SUPPORTED"
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_13.TextScaled = true
+TextLabel_13.TextSize = 20.000
+TextLabel_13.TextWrapped = true
 
-	E_2.Name = "E"
-	E_2.Parent = Frame
-	E_2.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
-	E_2.BorderSizePixel = 0
-	E_2.Position = UDim2.new(0.496399224, 0, 0.105883352, 0)
-	E_2.Size = UDim2.new(0, 3, 0, 183)
+TextLabel_14.Parent = ScrollingFrame
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_14.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_14.Font = Enum.Font.SourceSansSemibold
+TextLabel_14.Text = "ca | Catalan"
+TextLabel_14.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_14.TextScaled = true
+TextLabel_14.TextSize = 20.000
+TextLabel_14.TextWrapped = true
 
-	UICorner_5.Parent = E_2
+TextLabel_15.Parent = ScrollingFrame
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_15.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_15.Font = Enum.Font.SourceSansSemibold
+TextLabel_15.Text = "ceb | Cebuano"
+TextLabel_15.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_15.TextScaled = true
+TextLabel_15.TextSize = 20.000
+TextLabel_15.TextWrapped = true
 
-	local function AJVOFCP_fake_script()
-		local script = Instance.new('LocalScript', Frame)
+TextLabel_16.Parent = ScrollingFrame
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.BackgroundTransparency = 1.000
+TextLabel_16.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_16.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_16.Font = Enum.Font.SourceSansSemibold
+TextLabel_16.Text = "ny | Chichewa"
+TextLabel_16.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_16.TextScaled = true
+TextLabel_16.TextSize = 20.000
+TextLabel_16.TextWrapped = true
 
-		local UIS = game:GetService('UserInputService')
-		local frame = script.Parent
-		local dragToggle = nil
-		local dragSpeed = 0.25
-		local dragStart = nil
-		local startPos = nil
-		
-		local function updateInput(input)
-			local delta = input.Position - dragStart
-			local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
-				startPos.Y.Scale, startPos.Y.Offset + delta.Y)
-			game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
-		end
-		
-		frame.InputBegan:Connect(function(input)
-			if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
-				dragToggle = true
-				dragStart = input.Position
-				startPos = frame.Position
-				input.Changed:Connect(function()
-					if input.UserInputState == Enum.UserInputState.End then
-						dragToggle = false
-					end
-				end)
-			end
-		end)
-		
-		UIS.InputChanged:Connect(function(input)
-			if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
-				if dragToggle then
-					updateInput(input)
+TextLabel_17.Parent = ScrollingFrame
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.BackgroundTransparency = 1.000
+TextLabel_17.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_17.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_17.Font = Enum.Font.SourceSansSemibold
+TextLabel_17.Text = "zh-cn | Chinese Simplified"
+TextLabel_17.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_17.TextScaled = true
+TextLabel_17.TextSize = 20.000
+TextLabel_17.TextWrapped = true
+
+TextLabel_18.Parent = ScrollingFrame
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.BackgroundTransparency = 1.000
+TextLabel_18.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_18.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_18.Font = Enum.Font.SourceSansSemibold
+TextLabel_18.Text = "zn-tw | Chinese Traditional"
+TextLabel_18.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_18.TextScaled = true
+TextLabel_18.TextSize = 20.000
+TextLabel_18.TextWrapped = true
+
+TextLabel_19.Parent = ScrollingFrame
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.BackgroundTransparency = 1.000
+TextLabel_19.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_19.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_19.Font = Enum.Font.SourceSansSemibold
+TextLabel_19.Text = "co | Corsican"
+TextLabel_19.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_19.TextScaled = true
+TextLabel_19.TextSize = 20.000
+TextLabel_19.TextWrapped = true
+
+TextLabel_20.Parent = ScrollingFrame
+TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.BackgroundTransparency = 1.000
+TextLabel_20.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_20.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_20.Font = Enum.Font.SourceSansSemibold
+TextLabel_20.Text = "hr | Croatian"
+TextLabel_20.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_20.TextScaled = true
+TextLabel_20.TextSize = 20.000
+TextLabel_20.TextWrapped = true
+
+TextLabel_21.Parent = ScrollingFrame
+TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.BackgroundTransparency = 1.000
+TextLabel_21.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_21.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_21.Font = Enum.Font.SourceSansSemibold
+TextLabel_21.Text = "cs | Czech"
+TextLabel_21.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_21.TextScaled = true
+TextLabel_21.TextSize = 20.000
+TextLabel_21.TextWrapped = true
+
+TextLabel_22.Parent = ScrollingFrame
+TextLabel_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.BackgroundTransparency = 1.000
+TextLabel_22.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_22.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_22.Font = Enum.Font.SourceSansSemibold
+TextLabel_22.Text = "da | Danish"
+TextLabel_22.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_22.TextScaled = true
+TextLabel_22.TextSize = 20.000
+TextLabel_22.TextWrapped = true
+
+TextLabel_23.Parent = ScrollingFrame
+TextLabel_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.BackgroundTransparency = 1.000
+TextLabel_23.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_23.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_23.Font = Enum.Font.SourceSansSemibold
+TextLabel_23.Text = "nl | Dutch"
+TextLabel_23.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_23.TextScaled = true
+TextLabel_23.TextSize = 20.000
+TextLabel_23.TextWrapped = true
+
+TextLabel_24.Parent = ScrollingFrame
+TextLabel_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.BackgroundTransparency = 1.000
+TextLabel_24.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_24.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_24.Font = Enum.Font.SourceSansSemibold
+TextLabel_24.Text = "en | English"
+TextLabel_24.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_24.TextScaled = true
+TextLabel_24.TextSize = 20.000
+TextLabel_24.TextWrapped = true
+
+TextLabel_25.Parent = ScrollingFrame
+TextLabel_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.BackgroundTransparency = 1.000
+TextLabel_25.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_25.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_25.Font = Enum.Font.SourceSansSemibold
+TextLabel_25.Text = "eo | Esperanto"
+TextLabel_25.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_25.TextScaled = true
+TextLabel_25.TextSize = 20.000
+TextLabel_25.TextWrapped = true
+
+TextLabel_26.Parent = ScrollingFrame
+TextLabel_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_26.BackgroundTransparency = 1.000
+TextLabel_26.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_26.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_26.Font = Enum.Font.SourceSansSemibold
+TextLabel_26.Text = "et | Estonian"
+TextLabel_26.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_26.TextScaled = true
+TextLabel_26.TextSize = 20.000
+TextLabel_26.TextWrapped = true
+
+TextLabel_27.Parent = ScrollingFrame
+TextLabel_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_27.BackgroundTransparency = 1.000
+TextLabel_27.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_27.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_27.Font = Enum.Font.SourceSansSemibold
+TextLabel_27.Text = "tl | Filipino"
+TextLabel_27.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_27.TextScaled = true
+TextLabel_27.TextSize = 20.000
+TextLabel_27.TextWrapped = true
+
+TextLabel_28.Parent = ScrollingFrame
+TextLabel_28.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_28.BackgroundTransparency = 1.000
+TextLabel_28.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_28.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_28.Font = Enum.Font.SourceSansSemibold
+TextLabel_28.Text = "fi | Finnish"
+TextLabel_28.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_28.TextScaled = true
+TextLabel_28.TextSize = 20.000
+TextLabel_28.TextWrapped = true
+
+TextLabel_29.Parent = ScrollingFrame
+TextLabel_29.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_29.BackgroundTransparency = 1.000
+TextLabel_29.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_29.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_29.Font = Enum.Font.SourceSansSemibold
+TextLabel_29.Text = "fr | French"
+TextLabel_29.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_29.TextScaled = true
+TextLabel_29.TextSize = 20.000
+TextLabel_29.TextWrapped = true
+
+TextLabel_30.Parent = ScrollingFrame
+TextLabel_30.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_30.BackgroundTransparency = 1.000
+TextLabel_30.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_30.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_30.Font = Enum.Font.SourceSansSemibold
+TextLabel_30.Text = "fy | Frisian"
+TextLabel_30.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_30.TextScaled = true
+TextLabel_30.TextSize = 20.000
+TextLabel_30.TextWrapped = true
+
+TextLabel_31.Parent = ScrollingFrame
+TextLabel_31.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_31.BackgroundTransparency = 1.000
+TextLabel_31.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_31.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_31.Font = Enum.Font.SourceSansSemibold
+TextLabel_31.Text = "gl | Galician"
+TextLabel_31.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_31.TextScaled = true
+TextLabel_31.TextSize = 20.000
+TextLabel_31.TextWrapped = true
+
+TextLabel_32.Parent = ScrollingFrame
+TextLabel_32.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_32.BackgroundTransparency = 1.000
+TextLabel_32.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_32.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_32.Font = Enum.Font.SourceSansSemibold
+TextLabel_32.Text = "ka | Georgian"
+TextLabel_32.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_32.TextScaled = true
+TextLabel_32.TextSize = 20.000
+TextLabel_32.TextWrapped = true
+
+TextLabel_33.Parent = ScrollingFrame
+TextLabel_33.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_33.BackgroundTransparency = 1.000
+TextLabel_33.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_33.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_33.Font = Enum.Font.SourceSansSemibold
+TextLabel_33.Text = "de | German"
+TextLabel_33.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_33.TextScaled = true
+TextLabel_33.TextSize = 20.000
+TextLabel_33.TextWrapped = true
+
+TextLabel_34.Parent = ScrollingFrame
+TextLabel_34.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_34.BackgroundTransparency = 1.000
+TextLabel_34.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_34.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_34.Font = Enum.Font.SourceSansSemibold
+TextLabel_34.Text = "el | Greek"
+TextLabel_34.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_34.TextScaled = true
+TextLabel_34.TextSize = 20.000
+TextLabel_34.TextWrapped = true
+
+TextLabel_35.Parent = ScrollingFrame
+TextLabel_35.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_35.BackgroundTransparency = 1.000
+TextLabel_35.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_35.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_35.Font = Enum.Font.SourceSansSemibold
+TextLabel_35.Text = "gu | Gujarati"
+TextLabel_35.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_35.TextScaled = true
+TextLabel_35.TextSize = 20.000
+TextLabel_35.TextWrapped = true
+
+TextLabel_36.Parent = ScrollingFrame
+TextLabel_36.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_36.BackgroundTransparency = 1.000
+TextLabel_36.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_36.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_36.Font = Enum.Font.SourceSansSemibold
+TextLabel_36.Text = "ht | Haitian Creole"
+TextLabel_36.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_36.TextScaled = true
+TextLabel_36.TextSize = 20.000
+TextLabel_36.TextWrapped = true
+
+TextLabel_37.Parent = ScrollingFrame
+TextLabel_37.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_37.BackgroundTransparency = 1.000
+TextLabel_37.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_37.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_37.Font = Enum.Font.SourceSansSemibold
+TextLabel_37.Text = "ha | Hausa"
+TextLabel_37.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_37.TextScaled = true
+TextLabel_37.TextSize = 20.000
+TextLabel_37.TextWrapped = true
+
+TextLabel_38.Parent = ScrollingFrame
+TextLabel_38.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_38.BackgroundTransparency = 1.000
+TextLabel_38.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_38.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_38.Font = Enum.Font.SourceSansSemibold
+TextLabel_38.Text = "haw | Hawaiian"
+TextLabel_38.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_38.TextScaled = true
+TextLabel_38.TextSize = 20.000
+TextLabel_38.TextWrapped = true
+
+TextLabel_39.Parent = ScrollingFrame
+TextLabel_39.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_39.BackgroundTransparency = 1.000
+TextLabel_39.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_39.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_39.Font = Enum.Font.SourceSansSemibold
+TextLabel_39.Text = "iw | Hebrew"
+TextLabel_39.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_39.TextScaled = true
+TextLabel_39.TextSize = 20.000
+TextLabel_39.TextWrapped = true
+
+TextLabel_40.Parent = ScrollingFrame
+TextLabel_40.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_40.BackgroundTransparency = 1.000
+TextLabel_40.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_40.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_40.Font = Enum.Font.SourceSansSemibold
+TextLabel_40.Text = "hi | Hindi"
+TextLabel_40.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_40.TextScaled = true
+TextLabel_40.TextSize = 20.000
+TextLabel_40.TextWrapped = true
+
+TextLabel_41.Parent = ScrollingFrame
+TextLabel_41.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_41.BackgroundTransparency = 1.000
+TextLabel_41.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_41.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_41.Font = Enum.Font.SourceSansSemibold
+TextLabel_41.Text = "hmn | Hmong"
+TextLabel_41.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_41.TextScaled = true
+TextLabel_41.TextSize = 20.000
+TextLabel_41.TextWrapped = true
+
+TextLabel_42.Parent = ScrollingFrame
+TextLabel_42.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_42.BackgroundTransparency = 1.000
+TextLabel_42.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_42.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_42.Font = Enum.Font.SourceSansSemibold
+TextLabel_42.Text = "hu | Hungarian"
+TextLabel_42.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_42.TextScaled = true
+TextLabel_42.TextSize = 20.000
+TextLabel_42.TextWrapped = true
+
+TextLabel_43.Parent = ScrollingFrame
+TextLabel_43.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_43.BackgroundTransparency = 1.000
+TextLabel_43.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_43.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_43.Font = Enum.Font.SourceSansSemibold
+TextLabel_43.Text = "is | Icelandic"
+TextLabel_43.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_43.TextScaled = true
+TextLabel_43.TextSize = 20.000
+TextLabel_43.TextWrapped = true
+
+TextLabel_44.Parent = ScrollingFrame
+TextLabel_44.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_44.BackgroundTransparency = 1.000
+TextLabel_44.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_44.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_44.Font = Enum.Font.SourceSansSemibold
+TextLabel_44.Text = "ig | Igbo"
+TextLabel_44.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_44.TextScaled = true
+TextLabel_44.TextSize = 20.000
+TextLabel_44.TextWrapped = true
+
+TextLabel_45.Parent = ScrollingFrame
+TextLabel_45.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_45.BackgroundTransparency = 1.000
+TextLabel_45.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_45.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_45.Font = Enum.Font.SourceSansSemibold
+TextLabel_45.Text = "id | Indonesian"
+TextLabel_45.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_45.TextScaled = true
+TextLabel_45.TextSize = 20.000
+TextLabel_45.TextWrapped = true
+
+TextLabel_46.Parent = ScrollingFrame
+TextLabel_46.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_46.BackgroundTransparency = 1.000
+TextLabel_46.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_46.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_46.Font = Enum.Font.SourceSansSemibold
+TextLabel_46.Text = "ga | Irish"
+TextLabel_46.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_46.TextScaled = true
+TextLabel_46.TextSize = 20.000
+TextLabel_46.TextWrapped = true
+
+TextLabel_47.Parent = ScrollingFrame
+TextLabel_47.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_47.BackgroundTransparency = 1.000
+TextLabel_47.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_47.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_47.Font = Enum.Font.SourceSansSemibold
+TextLabel_47.Text = "it | Italian"
+TextLabel_47.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_47.TextScaled = true
+TextLabel_47.TextSize = 20.000
+TextLabel_47.TextWrapped = true
+
+TextLabel_48.Parent = ScrollingFrame
+TextLabel_48.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_48.BackgroundTransparency = 1.000
+TextLabel_48.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_48.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_48.Font = Enum.Font.SourceSansSemibold
+TextLabel_48.Text = "ja | Japanese"
+TextLabel_48.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_48.TextScaled = true
+TextLabel_48.TextSize = 20.000
+TextLabel_48.TextWrapped = true
+
+TextLabel_49.Parent = ScrollingFrame
+TextLabel_49.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_49.BackgroundTransparency = 1.000
+TextLabel_49.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_49.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_49.Font = Enum.Font.SourceSansSemibold
+TextLabel_49.Text = "jw | Javanese"
+TextLabel_49.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_49.TextScaled = true
+TextLabel_49.TextSize = 20.000
+TextLabel_49.TextWrapped = true
+
+TextLabel_50.Parent = ScrollingFrame
+TextLabel_50.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_50.BackgroundTransparency = 1.000
+TextLabel_50.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_50.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_50.Font = Enum.Font.SourceSansSemibold
+TextLabel_50.Text = "kn | Kannada"
+TextLabel_50.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_50.TextScaled = true
+TextLabel_50.TextSize = 20.000
+TextLabel_50.TextWrapped = true
+
+TextLabel_51.Parent = ScrollingFrame
+TextLabel_51.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_51.BackgroundTransparency = 1.000
+TextLabel_51.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_51.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_51.Font = Enum.Font.SourceSansSemibold
+TextLabel_51.Text = "kk | Kazakh"
+TextLabel_51.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_51.TextScaled = true
+TextLabel_51.TextSize = 20.000
+TextLabel_51.TextWrapped = true
+
+TextLabel_52.Parent = ScrollingFrame
+TextLabel_52.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_52.BackgroundTransparency = 1.000
+TextLabel_52.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_52.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_52.Font = Enum.Font.SourceSansSemibold
+TextLabel_52.Text = "km | Khmer"
+TextLabel_52.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_52.TextScaled = true
+TextLabel_52.TextSize = 20.000
+TextLabel_52.TextWrapped = true
+
+TextLabel_53.Parent = ScrollingFrame
+TextLabel_53.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_53.BackgroundTransparency = 1.000
+TextLabel_53.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_53.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_53.Font = Enum.Font.SourceSansSemibold
+TextLabel_53.Text = "ko | Korean"
+TextLabel_53.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_53.TextScaled = true
+TextLabel_53.TextSize = 20.000
+TextLabel_53.TextWrapped = true
+
+TextLabel_54.Parent = ScrollingFrame
+TextLabel_54.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_54.BackgroundTransparency = 1.000
+TextLabel_54.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_54.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_54.Font = Enum.Font.SourceSansSemibold
+TextLabel_54.Text = "ku | Kurdish (Kurmanji)"
+TextLabel_54.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_54.TextScaled = true
+TextLabel_54.TextSize = 20.000
+TextLabel_54.TextWrapped = true
+
+TextLabel_55.Parent = ScrollingFrame
+TextLabel_55.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_55.BackgroundTransparency = 1.000
+TextLabel_55.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_55.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_55.Font = Enum.Font.SourceSansSemibold
+TextLabel_55.Text = "ky | Kyrgyz"
+TextLabel_55.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_55.TextScaled = true
+TextLabel_55.TextSize = 20.000
+TextLabel_55.TextWrapped = true
+
+TextLabel_56.Parent = ScrollingFrame
+TextLabel_56.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_56.BackgroundTransparency = 1.000
+TextLabel_56.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_56.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_56.Font = Enum.Font.SourceSansSemibold
+TextLabel_56.Text = "lo | Lao"
+TextLabel_56.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_56.TextScaled = true
+TextLabel_56.TextSize = 20.000
+TextLabel_56.TextWrapped = true
+
+TextLabel_57.Parent = ScrollingFrame
+TextLabel_57.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_57.BackgroundTransparency = 1.000
+TextLabel_57.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_57.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_57.Font = Enum.Font.SourceSansSemibold
+TextLabel_57.Text = "la | Latin"
+TextLabel_57.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_57.TextScaled = true
+TextLabel_57.TextSize = 20.000
+TextLabel_57.TextWrapped = true
+
+TextLabel_58.Parent = ScrollingFrame
+TextLabel_58.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_58.BackgroundTransparency = 1.000
+TextLabel_58.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_58.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_58.Font = Enum.Font.SourceSansSemibold
+TextLabel_58.Text = "lv | Latvian"
+TextLabel_58.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_58.TextScaled = true
+TextLabel_58.TextSize = 20.000
+TextLabel_58.TextWrapped = true
+
+TextLabel_59.Parent = ScrollingFrame
+TextLabel_59.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_59.BackgroundTransparency = 1.000
+TextLabel_59.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_59.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_59.Font = Enum.Font.SourceSansSemibold
+TextLabel_59.Text = "lt | Lithuanian"
+TextLabel_59.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_59.TextScaled = true
+TextLabel_59.TextSize = 20.000
+TextLabel_59.TextWrapped = true
+
+TextLabel_60.Parent = ScrollingFrame
+TextLabel_60.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_60.BackgroundTransparency = 1.000
+TextLabel_60.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_60.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_60.Font = Enum.Font.SourceSansSemibold
+TextLabel_60.Text = "lb | Luxembourgish"
+TextLabel_60.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_60.TextScaled = true
+TextLabel_60.TextSize = 20.000
+TextLabel_60.TextWrapped = true
+
+TextLabel_61.Parent = ScrollingFrame
+TextLabel_61.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_61.BackgroundTransparency = 1.000
+TextLabel_61.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_61.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_61.Font = Enum.Font.SourceSansSemibold
+TextLabel_61.Text = "mk | Macedonian"
+TextLabel_61.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_61.TextScaled = true
+TextLabel_61.TextSize = 20.000
+TextLabel_61.TextWrapped = true
+
+TextLabel_62.Parent = ScrollingFrame
+TextLabel_62.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_62.BackgroundTransparency = 1.000
+TextLabel_62.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_62.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_62.Font = Enum.Font.SourceSansSemibold
+TextLabel_62.Text = "mg | Malagasy"
+TextLabel_62.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_62.TextScaled = true
+TextLabel_62.TextSize = 20.000
+TextLabel_62.TextWrapped = true
+
+TextLabel_63.Parent = ScrollingFrame
+TextLabel_63.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_63.BackgroundTransparency = 1.000
+TextLabel_63.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_63.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_63.Font = Enum.Font.SourceSansSemibold
+TextLabel_63.Text = "ms | Malay"
+TextLabel_63.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_63.TextScaled = true
+TextLabel_63.TextSize = 20.000
+TextLabel_63.TextWrapped = true
+
+TextLabel_64.Parent = ScrollingFrame
+TextLabel_64.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_64.BackgroundTransparency = 1.000
+TextLabel_64.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_64.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_64.Font = Enum.Font.SourceSansSemibold
+TextLabel_64.Text = "ml | Malayalam"
+TextLabel_64.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_64.TextScaled = true
+TextLabel_64.TextSize = 20.000
+TextLabel_64.TextWrapped = true
+
+TextLabel_65.Parent = ScrollingFrame
+TextLabel_65.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_65.BackgroundTransparency = 1.000
+TextLabel_65.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_65.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_65.Font = Enum.Font.SourceSansSemibold
+TextLabel_65.Text = "mt | Maltese"
+TextLabel_65.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_65.TextScaled = true
+TextLabel_65.TextSize = 20.000
+TextLabel_65.TextWrapped = true
+
+TextLabel_66.Parent = ScrollingFrame
+TextLabel_66.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_66.BackgroundTransparency = 1.000
+TextLabel_66.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_66.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_66.Font = Enum.Font.SourceSansSemibold
+TextLabel_66.Text = "mi | Maori"
+TextLabel_66.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_66.TextScaled = true
+TextLabel_66.TextSize = 20.000
+TextLabel_66.TextWrapped = true
+
+TextLabel_67.Parent = ScrollingFrame
+TextLabel_67.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_67.BackgroundTransparency = 1.000
+TextLabel_67.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_67.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_67.Font = Enum.Font.SourceSansSemibold
+TextLabel_67.Text = "mr | Marathi"
+TextLabel_67.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_67.TextScaled = true
+TextLabel_67.TextSize = 20.000
+TextLabel_67.TextWrapped = true
+
+TextLabel_68.Parent = ScrollingFrame
+TextLabel_68.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_68.BackgroundTransparency = 1.000
+TextLabel_68.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_68.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_68.Font = Enum.Font.SourceSansSemibold
+TextLabel_68.Text = "mn | Mongolian"
+TextLabel_68.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_68.TextScaled = true
+TextLabel_68.TextSize = 20.000
+TextLabel_68.TextWrapped = true
+
+TextLabel_69.Parent = ScrollingFrame
+TextLabel_69.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_69.BackgroundTransparency = 1.000
+TextLabel_69.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_69.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_69.Font = Enum.Font.SourceSansSemibold
+TextLabel_69.Text = "my | Myanmar (Burmese)"
+TextLabel_69.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_69.TextScaled = true
+TextLabel_69.TextSize = 20.000
+TextLabel_69.TextWrapped = true
+
+TextLabel_70.Parent = ScrollingFrame
+TextLabel_70.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_70.BackgroundTransparency = 1.000
+TextLabel_70.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_70.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_70.Font = Enum.Font.SourceSansSemibold
+TextLabel_70.Text = "ne | Nepali"
+TextLabel_70.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_70.TextScaled = true
+TextLabel_70.TextSize = 20.000
+TextLabel_70.TextWrapped = true
+
+TextLabel_71.Parent = ScrollingFrame
+TextLabel_71.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_71.BackgroundTransparency = 1.000
+TextLabel_71.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_71.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_71.Font = Enum.Font.SourceSansSemibold
+TextLabel_71.Text = "no | Norwegian"
+TextLabel_71.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_71.TextScaled = true
+TextLabel_71.TextSize = 20.000
+TextLabel_71.TextWrapped = true
+
+TextLabel_72.Parent = ScrollingFrame
+TextLabel_72.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_72.BackgroundTransparency = 1.000
+TextLabel_72.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_72.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_72.Font = Enum.Font.SourceSansSemibold
+TextLabel_72.Text = "ps | Pashto"
+TextLabel_72.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_72.TextScaled = true
+TextLabel_72.TextSize = 20.000
+TextLabel_72.TextWrapped = true
+
+TextLabel_73.Parent = ScrollingFrame
+TextLabel_73.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_73.BackgroundTransparency = 1.000
+TextLabel_73.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_73.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_73.Font = Enum.Font.SourceSansSemibold
+TextLabel_73.Text = "fa | Persian"
+TextLabel_73.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_73.TextScaled = true
+TextLabel_73.TextSize = 20.000
+TextLabel_73.TextWrapped = true
+
+TextLabel_74.Parent = ScrollingFrame
+TextLabel_74.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_74.BackgroundTransparency = 1.000
+TextLabel_74.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_74.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_74.Font = Enum.Font.SourceSansSemibold
+TextLabel_74.Text = "pl | Polish"
+TextLabel_74.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_74.TextScaled = true
+TextLabel_74.TextSize = 20.000
+TextLabel_74.TextWrapped = true
+
+TextLabel_75.Parent = ScrollingFrame
+TextLabel_75.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_75.BackgroundTransparency = 1.000
+TextLabel_75.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_75.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_75.Font = Enum.Font.SourceSansSemibold
+TextLabel_75.Text = "pt | Portuguese"
+TextLabel_75.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_75.TextScaled = true
+TextLabel_75.TextSize = 20.000
+TextLabel_75.TextWrapped = true
+
+TextLabel_76.Parent = ScrollingFrame
+TextLabel_76.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_76.BackgroundTransparency = 1.000
+TextLabel_76.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_76.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_76.Font = Enum.Font.SourceSansSemibold
+TextLabel_76.Text = "pa | Punjabi"
+TextLabel_76.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_76.TextScaled = true
+TextLabel_76.TextSize = 20.000
+TextLabel_76.TextWrapped = true
+
+TextLabel_77.Parent = ScrollingFrame
+TextLabel_77.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_77.BackgroundTransparency = 1.000
+TextLabel_77.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_77.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_77.Font = Enum.Font.SourceSansSemibold
+TextLabel_77.Text = "ro | Romanian"
+TextLabel_77.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_77.TextScaled = true
+TextLabel_77.TextSize = 20.000
+TextLabel_77.TextWrapped = true
+
+TextLabel_78.Parent = ScrollingFrame
+TextLabel_78.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_78.BackgroundTransparency = 1.000
+TextLabel_78.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_78.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_78.Font = Enum.Font.SourceSansSemibold
+TextLabel_78.Text = "ru | Russian"
+TextLabel_78.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_78.TextScaled = true
+TextLabel_78.TextSize = 20.000
+TextLabel_78.TextWrapped = true
+
+TextLabel_79.Parent = ScrollingFrame
+TextLabel_79.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_79.BackgroundTransparency = 1.000
+TextLabel_79.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_79.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_79.Font = Enum.Font.SourceSansSemibold
+TextLabel_79.Text = "sm | Samoan"
+TextLabel_79.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_79.TextScaled = true
+TextLabel_79.TextSize = 20.000
+TextLabel_79.TextWrapped = true
+
+TextLabel_80.Parent = ScrollingFrame
+TextLabel_80.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_80.BackgroundTransparency = 1.000
+TextLabel_80.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_80.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_80.Font = Enum.Font.SourceSansSemibold
+TextLabel_80.Text = "gd | Scots Gaelic"
+TextLabel_80.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_80.TextScaled = true
+TextLabel_80.TextSize = 20.000
+TextLabel_80.TextWrapped = true
+
+TextLabel_81.Parent = ScrollingFrame
+TextLabel_81.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_81.BackgroundTransparency = 1.000
+TextLabel_81.Position = UDim2.new(0.0505617969, 0, 0.115163147, 0)
+TextLabel_81.Size = UDim2.new(0, 169, 0, 28)
+TextLabel_81.Font = Enum.Font.SourceSansSemibold
+TextLabel_81.Text = "sr | Serbian"
+TextLabel_81.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_81.TextScaled = true
+TextLabel_81.TextSize = 20.000
+TextLabel_81.TextWrapped = true
+
+TextLabel_82.Parent = ScrollingFrame
+TextLabel_82.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_82.BackgroundTransparency = 1.000
+TextLabel_82.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_82.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_82.Font = Enum.Font.SourceSansSemibold
+TextLabel_82.Text = "st | Sesotho"
+TextLabel_82.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_82.TextScaled = true
+TextLabel_82.TextSize = 20.000
+TextLabel_82.TextWrapped = true
+
+TextLabel_83.Parent = ScrollingFrame
+TextLabel_83.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_83.BackgroundTransparency = 1.000
+TextLabel_83.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_83.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_83.Font = Enum.Font.SourceSansSemibold
+TextLabel_83.Text = "sn | Shona"
+TextLabel_83.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_83.TextScaled = true
+TextLabel_83.TextSize = 20.000
+TextLabel_83.TextWrapped = true
+
+TextLabel_84.Parent = ScrollingFrame
+TextLabel_84.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_84.BackgroundTransparency = 1.000
+TextLabel_84.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_84.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_84.Font = Enum.Font.SourceSansSemibold
+TextLabel_84.Text = "sd | Sindhi"
+TextLabel_84.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_84.TextScaled = true
+TextLabel_84.TextSize = 20.000
+TextLabel_84.TextWrapped = true
+
+TextLabel_85.Parent = ScrollingFrame
+TextLabel_85.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_85.BackgroundTransparency = 1.000
+TextLabel_85.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_85.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_85.Font = Enum.Font.SourceSansSemibold
+TextLabel_85.Text = "si | Sinhala"
+TextLabel_85.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_85.TextScaled = true
+TextLabel_85.TextSize = 20.000
+TextLabel_85.TextWrapped = true
+
+TextLabel_86.Parent = ScrollingFrame
+TextLabel_86.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_86.BackgroundTransparency = 1.000
+TextLabel_86.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_86.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_86.Font = Enum.Font.SourceSansSemibold
+TextLabel_86.Text = "sk | Slovak"
+TextLabel_86.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_86.TextScaled = true
+TextLabel_86.TextSize = 20.000
+TextLabel_86.TextWrapped = true
+
+TextLabel_87.Parent = ScrollingFrame
+TextLabel_87.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_87.BackgroundTransparency = 1.000
+TextLabel_87.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_87.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_87.Font = Enum.Font.SourceSansSemibold
+TextLabel_87.Text = "sl | Slovenian"
+TextLabel_87.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_87.TextScaled = true
+TextLabel_87.TextSize = 20.000
+TextLabel_87.TextWrapped = true
+
+TextLabel_88.Parent = ScrollingFrame
+TextLabel_88.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_88.BackgroundTransparency = 1.000
+TextLabel_88.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_88.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_88.Font = Enum.Font.SourceSansSemibold
+TextLabel_88.Text = "so | Somali"
+TextLabel_88.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_88.TextScaled = true
+TextLabel_88.TextSize = 20.000
+TextLabel_88.TextWrapped = true
+
+TextLabel_89.Parent = ScrollingFrame
+TextLabel_89.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_89.BackgroundTransparency = 1.000
+TextLabel_89.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_89.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_89.Font = Enum.Font.SourceSansSemibold
+TextLabel_89.Text = "es | Spanish"
+TextLabel_89.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_89.TextScaled = true
+TextLabel_89.TextSize = 20.000
+TextLabel_89.TextWrapped = true
+
+TextLabel_90.Parent = ScrollingFrame
+TextLabel_90.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_90.BackgroundTransparency = 1.000
+TextLabel_90.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_90.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_90.Font = Enum.Font.SourceSansSemibold
+TextLabel_90.Text = "su | Sundanese"
+TextLabel_90.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_90.TextScaled = true
+TextLabel_90.TextSize = 20.000
+TextLabel_90.TextWrapped = true
+
+TextLabel_91.Parent = ScrollingFrame
+TextLabel_91.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_91.BackgroundTransparency = 1.000
+TextLabel_91.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_91.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_91.Font = Enum.Font.SourceSansSemibold
+TextLabel_91.Text = "sw | Swahili"
+TextLabel_91.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_91.TextScaled = true
+TextLabel_91.TextSize = 20.000
+TextLabel_91.TextWrapped = true
+
+TextLabel_92.Parent = ScrollingFrame
+TextLabel_92.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_92.BackgroundTransparency = 1.000
+TextLabel_92.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_92.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_92.Font = Enum.Font.SourceSansSemibold
+TextLabel_92.Text = "sv | Swedish"
+TextLabel_92.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_92.TextScaled = true
+TextLabel_92.TextSize = 20.000
+TextLabel_92.TextWrapped = true
+
+TextLabel_93.Parent = ScrollingFrame
+TextLabel_93.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_93.BackgroundTransparency = 1.000
+TextLabel_93.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_93.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_93.Font = Enum.Font.SourceSansSemibold
+TextLabel_93.Text = "tg | Tajik"
+TextLabel_93.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_93.TextScaled = true
+TextLabel_93.TextSize = 20.000
+TextLabel_93.TextWrapped = true
+
+TextLabel_94.Parent = ScrollingFrame
+TextLabel_94.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_94.BackgroundTransparency = 1.000
+TextLabel_94.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_94.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_94.Font = Enum.Font.SourceSansSemibold
+TextLabel_94.Text = "ta | Tamil"
+TextLabel_94.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_94.TextScaled = true
+TextLabel_94.TextSize = 20.000
+TextLabel_94.TextWrapped = true
+
+TextLabel_95.Parent = ScrollingFrame
+TextLabel_95.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_95.BackgroundTransparency = 1.000
+TextLabel_95.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_95.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_95.Font = Enum.Font.SourceSansSemibold
+TextLabel_95.Text = "te | Telugu"
+TextLabel_95.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_95.TextScaled = true
+TextLabel_95.TextSize = 20.000
+TextLabel_95.TextWrapped = true
+
+TextLabel_96.Parent = ScrollingFrame
+TextLabel_96.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_96.BackgroundTransparency = 1.000
+TextLabel_96.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_96.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_96.Font = Enum.Font.SourceSansSemibold
+TextLabel_96.Text = "th | Thai"
+TextLabel_96.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_96.TextScaled = true
+TextLabel_96.TextSize = 20.000
+TextLabel_96.TextWrapped = true
+
+TextLabel_97.Parent = ScrollingFrame
+TextLabel_97.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_97.BackgroundTransparency = 1.000
+TextLabel_97.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_97.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_97.Font = Enum.Font.SourceSansSemibold
+TextLabel_97.Text = "tr | Turkish"
+TextLabel_97.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_97.TextScaled = true
+TextLabel_97.TextSize = 20.000
+TextLabel_97.TextWrapped = true
+
+TextLabel_98.Parent = ScrollingFrame
+TextLabel_98.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_98.BackgroundTransparency = 1.000
+TextLabel_98.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_98.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_98.Font = Enum.Font.SourceSansSemibold
+TextLabel_98.Text = "uk | Ukrainian"
+TextLabel_98.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_98.TextScaled = true
+TextLabel_98.TextSize = 20.000
+TextLabel_98.TextWrapped = true
+
+TextLabel_99.Parent = ScrollingFrame
+TextLabel_99.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_99.BackgroundTransparency = 1.000
+TextLabel_99.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_99.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_99.Font = Enum.Font.SourceSansSemibold
+TextLabel_99.Text = "ur | Urdu"
+TextLabel_99.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_99.TextScaled = true
+TextLabel_99.TextSize = 20.000
+TextLabel_99.TextWrapped = true
+
+TextLabel_100.Parent = ScrollingFrame
+TextLabel_100.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_100.BackgroundTransparency = 1.000
+TextLabel_100.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_100.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_100.Font = Enum.Font.SourceSansSemibold
+TextLabel_100.Text = "uz | Uzbek"
+TextLabel_100.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_100.TextScaled = true
+TextLabel_100.TextSize = 20.000
+TextLabel_100.TextWrapped = true
+
+TextLabel_101.Parent = ScrollingFrame
+TextLabel_101.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_101.BackgroundTransparency = 1.000
+TextLabel_101.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_101.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_101.Font = Enum.Font.SourceSansSemibold
+TextLabel_101.Text = "vi | Vietnamese"
+TextLabel_101.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_101.TextScaled = true
+TextLabel_101.TextSize = 20.000
+TextLabel_101.TextWrapped = true
+
+TextLabel_102.Parent = ScrollingFrame
+TextLabel_102.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_102.BackgroundTransparency = 1.000
+TextLabel_102.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_102.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_102.Font = Enum.Font.SourceSansSemibold
+TextLabel_102.Text = "cy | Welsh"
+TextLabel_102.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_102.TextScaled = true
+TextLabel_102.TextSize = 20.000
+TextLabel_102.TextWrapped = true
+
+TextLabel_103.Parent = ScrollingFrame
+TextLabel_103.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_103.BackgroundTransparency = 1.000
+TextLabel_103.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_103.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_103.Font = Enum.Font.SourceSansSemibold
+TextLabel_103.Text = "xh | Xhosa"
+TextLabel_103.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_103.TextScaled = true
+TextLabel_103.TextSize = 20.000
+TextLabel_103.TextWrapped = true
+
+TextLabel_104.Parent = ScrollingFrame
+TextLabel_104.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_104.BackgroundTransparency = 1.000
+TextLabel_104.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_104.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_104.Font = Enum.Font.SourceSansSemibold
+TextLabel_104.Text = "yi | Yiddish"
+TextLabel_104.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_104.TextScaled = true
+TextLabel_104.TextSize = 20.000
+TextLabel_104.TextWrapped = true
+
+TextLabel_105.Parent = ScrollingFrame
+TextLabel_105.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_105.BackgroundTransparency = 1.000
+TextLabel_105.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_105.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_105.Font = Enum.Font.SourceSansSemibold
+TextLabel_105.Text = "yo | Yoruba"
+TextLabel_105.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_105.TextScaled = true
+TextLabel_105.TextSize = 20.000
+TextLabel_105.TextWrapped = true
+
+TextLabel_106.Parent = ScrollingFrame
+TextLabel_106.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_106.BackgroundTransparency = 1.000
+TextLabel_106.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_106.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_106.Font = Enum.Font.SourceSansSemibold
+TextLabel_106.Text = "zu | Zulu"
+TextLabel_106.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_106.TextScaled = true
+TextLabel_106.TextSize = 20.000
+TextLabel_106.TextWrapped = true
+
+TextLabel_107.Parent = ScrollingFrame
+TextLabel_107.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_107.BackgroundTransparency = 1.000
+TextLabel_107.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_107.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_107.Font = Enum.Font.SourceSansSemibold
+TextLabel_107.Text = "UNKNOWN OR EXPLOIT NOT SUPPORTED"
+TextLabel_107.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_107.TextScaled = true
+TextLabel_107.TextSize = 20.000
+TextLabel_107.TextWrapped = true
+
+TextLabel_108.Parent = ScrollingFrame
+TextLabel_108.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_108.BackgroundTransparency = 1.000
+TextLabel_108.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_108.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_108.Font = Enum.Font.SourceSansSemibold
+TextLabel_108.Text = "UNKNOWN OR EXPLOIT NOT SUPPORTED"
+TextLabel_108.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_108.TextScaled = true
+TextLabel_108.TextSize = 20.000
+TextLabel_108.TextWrapped = true
+
+TextLabel_109.Parent = ScrollingFrame
+TextLabel_109.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_109.BackgroundTransparency = 1.000
+TextLabel_109.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_109.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_109.Font = Enum.Font.SourceSansSemibold
+TextLabel_109.Text = "UNKNOWN OR EXPLOIT NOT SUPPORTED"
+TextLabel_109.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_109.TextScaled = true
+TextLabel_109.TextSize = 20.000
+TextLabel_109.TextWrapped = true
+
+TextLabel_110.Parent = ScrollingFrame
+TextLabel_110.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_110.BackgroundTransparency = 1.000
+TextLabel_110.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_110.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_110.Font = Enum.Font.SourceSansSemibold
+TextLabel_110.Text = "UNKNOWN OR EXPLOIT NOT SUPPORTED"
+TextLabel_110.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_110.TextScaled = true
+TextLabel_110.TextSize = 20.000
+TextLabel_110.TextWrapped = true
+
+TextLabel_111.Parent = ScrollingFrame
+TextLabel_111.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_111.BackgroundTransparency = 1.000
+TextLabel_111.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_111.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_111.Font = Enum.Font.SourceSansSemibold
+TextLabel_111.Text = "UNKNOWN OR EXPLOIT NOT SUPPORTED"
+TextLabel_111.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_111.TextScaled = true
+TextLabel_111.TextSize = 20.000
+TextLabel_111.TextWrapped = true
+
+TextLabel_112.Parent = ScrollingFrame
+TextLabel_112.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_112.BackgroundTransparency = 1.000
+TextLabel_112.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_112.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_112.Font = Enum.Font.SourceSansSemibold
+TextLabel_112.Text = "UNKNOWN OR EXPLOIT NOT SUPPORTED"
+TextLabel_112.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_112.TextScaled = true
+TextLabel_112.TextSize = 20.000
+TextLabel_112.TextWrapped = true
+
+TextLabel_113.Parent = ScrollingFrame
+TextLabel_113.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_113.BackgroundTransparency = 1.000
+TextLabel_113.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_113.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_113.Font = Enum.Font.SourceSansSemibold
+TextLabel_113.Text = "UNKNOWN OR EXPLOIT NOT SUPPORTED"
+TextLabel_113.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_113.TextScaled = true
+TextLabel_113.TextSize = 20.000
+TextLabel_113.TextWrapped = true
+
+TextLabel_114.Parent = ScrollingFrame
+TextLabel_114.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_114.BackgroundTransparency = 1.000
+TextLabel_114.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_114.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_114.Font = Enum.Font.SourceSansSemibold
+TextLabel_114.Text = "UNKNOWN OR EXPLOIT NOT SUPPORTED"
+TextLabel_114.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_114.TextScaled = true
+TextLabel_114.TextSize = 20.000
+TextLabel_114.TextWrapped = true
+
+TextLabel_115.Parent = ScrollingFrame
+TextLabel_115.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_115.BackgroundTransparency = 1.000
+TextLabel_115.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_115.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_115.Font = Enum.Font.SourceSansSemibold
+TextLabel_115.Text = "UNKNOWN OR EXPLOIT NOT SUPPORTED"
+TextLabel_115.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_115.TextScaled = true
+TextLabel_115.TextSize = 20.000
+TextLabel_115.TextWrapped = true
+
+TextLabel_116.Parent = ScrollingFrame
+TextLabel_116.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_116.BackgroundTransparency = 1.000
+TextLabel_116.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_116.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_116.Font = Enum.Font.SourceSansSemibold
+TextLabel_116.Text = "UNKNOWN OR EXPLOIT NOT SUPPORTED"
+TextLabel_116.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_116.TextScaled = true
+TextLabel_116.TextSize = 20.000
+TextLabel_116.TextWrapped = true
+
+TextLabel_117.Parent = ScrollingFrame
+TextLabel_117.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_117.BackgroundTransparency = 1.000
+TextLabel_117.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_117.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_117.Font = Enum.Font.SourceSansSemibold
+TextLabel_117.Text = "UNKNOWN OR EXPLOIT NOT SUPPORTED"
+TextLabel_117.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_117.TextScaled = true
+TextLabel_117.TextSize = 20.000
+TextLabel_117.TextWrapped = true
+
+TextLabel_118.Parent = ScrollingFrame
+TextLabel_118.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_118.BackgroundTransparency = 1.000
+TextLabel_118.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_118.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_118.Font = Enum.Font.SourceSansSemibold
+TextLabel_118.Text = "UNKNOWN OR EXPLOIT NOT SUPPORTED"
+TextLabel_118.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_118.TextScaled = true
+TextLabel_118.TextSize = 20.000
+TextLabel_118.TextWrapped = true
+
+TextLabel_119.Parent = ScrollingFrame
+TextLabel_119.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_119.BackgroundTransparency = 1.000
+TextLabel_119.Position = UDim2.new(0, 0, 0.660268724, 0)
+TextLabel_119.Size = UDim2.new(0, 169, 0, 30)
+TextLabel_119.Font = Enum.Font.SourceSansSemibold
+TextLabel_119.Text = "UNKNOWN OR EXPLOIT NOT SUPPORTED"
+TextLabel_119.TextColor3 = Color3.fromRGB(255, 170, 0)
+TextLabel_119.TextScaled = true
+TextLabel_119.TextSize = 20.000
+TextLabel_119.TextWrapped = true
+
+UICorner.CornerRadius = UDim.new(0, 5)
+UICorner.Parent = Frame
+
+-- Scripts:
+
+local function AFII_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
 				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
 			end
-		end)
-	end
-	coroutine.wrap(AJVOFCP_fake_script)()
-	local function TGRJWC_fake_script()
-		local script = Instance.new('LocalScript', Script)
-
-		script.Parent.MouseButton1Click:Connect(function()
-			script.Parent.Parent.Visible = false
-		end)
-		
-	end
-	coroutine.wrap(TGRJWC_fake_script)()
+		end
+	end)
+end
+coroutine.wrap(AFII_fake_script)()
